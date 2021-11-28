@@ -84,7 +84,7 @@ def change_dtypes(df):
 def main():
     """Main function"""
     st.title("❤️ Heart Disease Application ❤️")
-    df = pd.read_csv('heart_care_centre/Heart-Disease-Web-Application/app/src/data/heart.csv')
+    df = pd.read_csv('heart.csv')
     st.sidebar.title("Menu")
 
     # Creating radio buttons to choose menu options:
